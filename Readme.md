@@ -1,11 +1,16 @@
 Fork the repository xNORAGAMIx/NEXUS_DROP
+
 Clone the forked project YOUR_github/NEXUS_DROP 
+
     git clone <your_forked_repository_url>
 
 Configure git for pulling from base repository
+
     git remote add upstream <url_of_xNORAGAMIx/NEXUS_DROP>
     git fetch upstream
+
 Merging from base repository to your repository
+
     git checkout <branch_name / main> {your repository}
     git merge <upstream/main> {base repository branch name}
 
